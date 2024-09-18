@@ -59,3 +59,8 @@ const addMoney = document.getElementById('add-money').addEventListener('click', 
 
 
 //  same as about cash out method
+
+
+document.getElementById('cash-out').addEventListener('click', function(){
+    window.location.href = './cashout.html'
+})
