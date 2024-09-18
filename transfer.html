@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payoo CashOut</title>
+    <title>Payoo Transfer Balance</title>
     <link rel="shortcut icon" href="./asste/payoo.png" type="image/x-icon">
     <!-- daisyUI + tailwind css -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -22,7 +22,7 @@
                         <div class="stats shadow">
                             <!-- <img src="./asste/payoo.png" alt=""> -->
                             <div class="stat">
-                                <div id="Available-balance" class="stat-value">89400</div>
+                                <div id="Available-balance" class="stat-value">2400</div>
                                 <div class="stat-desc">Available Balance</div>
                             </div>
                         </div>
@@ -42,12 +42,12 @@
                     <!-- add money start -->
                     <div class="card bg-base-100 w-11/12 max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body bg-white rounded-xl">
-                            <h1 class="text-lg font-semibold">Cashout Money</h1>
+                            <h1 class="text-lg font-semibold">Transfer Money</h1>
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">CashOut Amount</span>
+                                    <span class="label-text">Transfer Amount</span>
                                 </label>
-                                <input id="input-cashout-money" type="text" placeholder="Add amount to withdraw"
+                                <input id="input-transfer-money" type="text" placeholder="Add amount to withdraw"
                                     class="input bg-[#F4F5F7] rounded-xl w-full" required />
                             </div>
                             <div class="form-control">
@@ -55,10 +55,10 @@
                                     <span class="label-text">Pin Number</span>
                                 </label>
                                 <input id="pin-number" type="password" placeholder="Enter 4 digit pin number"
-                                    class="input bg-[#F4F5F7] rounded-xl w-full" required autocomplete="off"/>
+                                    class="input bg-[#F4F5F7] rounded-xl w-full" required autocomplete="off" />
                             </div>
                             <div class="form-control mt-6">
-                                <button id="cashout-money" class="btn btn-warning font-bold rounded-full">Cashout Money</button>
+                                <button id="transfer-money" class="btn btn-warning font-bold rounded-full">Transfer Balance</button>
                             </div>
                         </form>
                     </div>
@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <script src="./js/cashout.js"></script>
+        <script src="./js/transfer.js"></script>
     </main>
 </body>
 

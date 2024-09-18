@@ -25,8 +25,16 @@ document.getElementById('cashout-money').addEventListener('click', function(even
         //  show ui/ DOM amount
 
         document.getElementById('Available-balance').innerText = totalAmount;
-        console.log(totalAmount);
+        // console.log(totalAmount);
+
+        alert('Transaction successful');
     }else{
         alert("Enter Valid Information");
     }
+})
+
+
+document.getElementById('add-money').addEventListener('click', function(){
+    window.location.href = './home-page.html'
+    // this.style.background = 'red';
 })
