@@ -23,5 +23,7 @@ document.getElementById('add-money').addEventListener('click', function(event){
         console.log(updateBalance);
 
         document.getElementById('balance').innerText = updateBalance
+    }else{
+        alert('Error ! input your valid information')
     }
 })

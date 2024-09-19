@@ -25,6 +25,8 @@ document.getElementById('submit-cashOut').addEventListener('click', function(eve
         console.log(afterCashOut);
         // show the balance amount of your account
         document.getElementById('balance').innerText = afterCashOut;
+    }else{
+        alert('Invalid Information ! check you information')
     }
 })
 
