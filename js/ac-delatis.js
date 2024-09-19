@@ -13,7 +13,7 @@ document.getElementById('add-money').addEventListener('click', function(event){
     const pinNumber = document.getElementById('pin-number').value
 
     if (pinNumber === '123') {
-        console.log("payment successful");
+        alert("Money Added Successfully");
 
         const availableBalance = document.getElementById('balance').innerText
         const balanceNumber = parseFloat(availableBalance)

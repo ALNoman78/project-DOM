@@ -15,7 +15,7 @@ document.getElementById('submit-cashOut').addEventListener('click', function(eve
     console.log(passwordNumber);
     //  check the password 
     if (passwordNumber === '123') {
-        console.log('successful');
+        alert('Your Transaction successful')
         // step - 6
         const mainBalance = document.getElementById('balance').innerText;
         const mainBalanceNumber = parseFloat(mainBalance);
