@@ -18,3 +18,7 @@ document.getElementById('login-button').addEventListener('click', function(event
         alert('Invalid Information ! Check you user id or password')
     }
 })
+
+document.getElementById('login-button').addEventListener('click', function(){
+    window.location.href = './ac-cashOut.html'
+})
